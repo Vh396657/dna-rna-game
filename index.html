@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="game-container">
+  <h1> DNA Matching</h1>
+
+  <p class="instructions">
+    Match each nucleotide with its correct partner:
+    <br><strong>A, T</strong> and <strong>C, G</strong>
+    <br>Mutations reset your progress if mismatched
+  </p>
+
+  <div class="top-bar">
+    <div id="timer">Time: 0s</div>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+  <div id="board" class="board"></div>
+  <div id="message" class="message"></div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
